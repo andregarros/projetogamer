@@ -60,8 +60,10 @@ header nav ul {
 section {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-top: 60px;
+  padding: 20px;
+  gap: 20px;
 }
 section > div > img {
   width: 250px;
@@ -81,4 +83,9 @@ section > div > img {
 
 .titulo-jogo-vermelho {
   color: #d62c58;
+}
+
+/* CARROSSEL */
+.carrossel-imagens {
+  overflow-x: auto;
 }

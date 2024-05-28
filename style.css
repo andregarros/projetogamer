@@ -9,19 +9,21 @@
 body {
   background-color: #1c1d22;
 }
-
-header > nav {
+header{
+  display: flex;
+  justify-content: space-between;
+}
+header  > h1{
+  color: white;
+  font-family: aBlack;
+  font-size: 1.2em;
+}
+header > nav{
   color: white;
   font-family: ablack;
   display: flex;
-  justify-content: flex-end;
-  padding-top: 60px;
+  justify-content: center;
 }
-
-ul li img {
-  height: 40px;
-}
-
 nav a {
   display: flex;
   align-items: center;
@@ -29,11 +31,9 @@ nav a {
   color: white;
   gap: 8px;
 }
-
-header nav ul {
+header nav ul{
   /* alinhamento do menu*/
   margin-right: 10px; /* opcional: adiciona um espaço entre os elementos */
-  font-size: 1.2em;
   padding-right: 20px;
   text-decoration: none;
   list-style: none;
@@ -47,15 +47,16 @@ header nav ul {
 .sessao-cadastro {
   display: flex;
   align-items: center;
+  margin-right: 50px;
   gap: 10px;
-  margin-left: 25px;
 }
 #cadastro {
   color: white;
   font-family: ablack;
+  font-size: 1.2em;
 }
 .perfili {
-  height: 60px;
+  height: 40px;
 }
 section {
   display: flex;

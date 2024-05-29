@@ -2,6 +2,10 @@
   font-family: ablack;
   src: url(aBlackLives.ttf);
 }
+@font-face {
+  font-family: Poppins ;
+  src: url(Poppins.ttf);
+}
 * {
   margin: 0px;
   padding: 0px;
@@ -12,20 +16,21 @@ body {
 header{
   display: flex;
   justify-content: space-between;
+  margin-top: 35px;
 }
 header  > h1{
   color: white;
   font-family: aBlack;
-  font-size: 1.2em;
+  font-size: 1.3em;
+  margin-left: 50px;
 }
 header > nav{
   color: white;
   font-family: ablack;
-  display: flex;
   justify-content: center;
+  font-size: 1.3em;
 }
 nav a {
-  display: flex;
   align-items: center;
   text-decoration: none;
   color: white;
@@ -48,22 +53,23 @@ header nav ul{
   display: flex;
   align-items: center;
   margin-right: 50px;
-  gap: 10px;
+  gap: 5px;
+  font-size: 1.3em;
 }
 #cadastro {
   color: white;
   font-family: ablack;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 .perfili {
-  height: 40px;
+  width: 20px;
 }
-section {
+#jogos{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin-top: 60px;
-  padding: 20px;
+  padding-top:15px;
   gap: 20px;
 }
 section > div > img {
@@ -90,3 +96,37 @@ section > div > img {
 .carrossel-imagens {
   overflow-x: auto;
 }
+#Duvidas{
+  color: white;
+  font-family: Poppins;
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 50px;
+}
+#bloco{
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#bloco-de-duvidas{
+    display: grid;
+    background-color: #29272b;
+    width: 600px;
+    padding-bottom: 50px;
+    color: white;
+    font-family: Poppins;
+    border-radius: 10px;
+}
+#subtitulo-do-bloco{
+  text-align: center;
+  margin-top: 15px;
+}
+#texto-do-bloco{
+  text-align: justify;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-family: Poppins;
+}
+

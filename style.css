@@ -3,7 +3,7 @@
   src: url(aBlackLives.ttf);
 }
 @font-face {
-  font-family: Poppins ;
+  font-family: Poppins;
   src: url(Poppins.ttf);
 }
 * {
@@ -13,64 +13,65 @@
 body {
   background-color: #1c1d22;
 }
-header{
+header {
   display: flex;
   justify-content: space-between;
-  margin-top: 35px;
+  align-items: center;
+  margin: 35px auto 0px;
+  width: 95vw;
 }
-header  > h1{
+
+header > h1 {
   color: white;
   font-family: aBlack;
   font-size: 1.3em;
-  margin-left: 50px;
 }
-header > nav{
+
+header > nav {
   color: white;
   font-family: ablack;
+  display: flex;
   justify-content: center;
+  gap: 50px;
   font-size: 1.3em;
 }
 nav a {
   align-items: center;
   text-decoration: none;
   color: white;
-  gap: 8px;
 }
-header nav ul{
-  /* alinhamento do menu*/
-  margin-right: 10px; /* opcional: adiciona um espaço entre os elementos */
-  padding-right: 20px;
+header nav ul {
   text-decoration: none;
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 20px;
 }
 #cor1 {
   color: #d62c58; /* cor do texto dowload do menu*/
 }
+
 .sessao-cadastro {
   display: flex;
   align-items: center;
-  margin-right: 50px;
   gap: 5px;
-  font-size: 1.3em;
 }
 #cadastro {
   color: white;
   font-family: ablack;
-  font-size: 1em;
 }
 .perfili {
-  width: 20px;
+  width: 50px;
 }
-#jogos{
+
+#jogos {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  margin-top: 60px;
-  padding-top:15px;
+  justify-content: space-between;
+  margin: 60px auto 0px;
+  padding-top: 15px;
   gap: 20px;
+  width: 95vw;
 }
 section > div > img {
   width: 250px;
@@ -96,37 +97,36 @@ section > div > img {
 .carrossel-imagens {
   overflow-x: auto;
 }
-#Duvidas{
+#Duvidas {
   color: white;
   font-family: Poppins;
   font-size: 1.5em;
   text-align: center;
   margin-top: 50px;
 }
-#bloco{
+#bloco {
   display: flex;
   justify-content: center;
   gap: 70px;
   margin-top: 40px;
   margin-bottom: 40px;
 }
-#bloco-de-duvidas{
-    display: grid;
-    background-color: #29272b;
-    width: 600px;
-    padding-bottom: 50px;
-    color: white;
-    font-family: Poppins;
-    border-radius: 10px;
+#bloco-de-duvidas {
+  display: grid;
+  background-color: #29272b;
+  width: 600px;
+  padding-bottom: 50px;
+  color: white;
+  font-family: Poppins;
+  border-radius: 10px;
 }
-#subtitulo-do-bloco{
+#subtitulo-do-bloco {
   text-align: center;
   margin-top: 15px;
 }
-#texto-do-bloco{
+#texto-do-bloco {
   text-align: justify;
   margin-right: 10px;
   margin-left: 10px;
   font-family: Poppins;
 }
-

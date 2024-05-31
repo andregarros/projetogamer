@@ -27,7 +27,7 @@ header > h1 {
   font-size: 1.3em;
 }
 
-header > nav {
+header > nav#menu-pc{
   color: white;
   font-family: ablack;
   display: flex;
@@ -35,20 +35,17 @@ header > nav {
   gap: 50px;
   font-size: 1.3em;
 }
-nav a {
+header nav a{
   align-items: center;
   text-decoration: none;
   color: white;
 }
-header nav ul {
+header #menu-pc ul {
   text-decoration: none;
   list-style: none;
   display: flex;
   align-items: center;
   gap: 20px;
-}
-#cor1 {
-  color: #d62c58; /* cor do texto dowload do menu*/
 }
 
 .sessao-cadastro {
@@ -63,7 +60,6 @@ header nav ul {
 .perfili {
   width: 50px;
 }
-
 #jogos {
   display: flex;
   align-items: center;
@@ -104,29 +100,14 @@ section > div > img {
   text-align: center;
   margin-top: 50px;
 }
-#bloco {
-  display: flex;
-  justify-content: center;
-  gap: 70px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+#bloco div{
+  
 }
-#bloco-de-duvidas {
-  display: grid;
-  background-color: #29272b;
-  width: 600px;
-  padding-bottom: 50px;
-  color: white;
+#bloco div h2{
   font-family: Poppins;
-  border-radius: 10px;
+  font-weight: bold;
 }
-#subtitulo-do-bloco {
-  text-align: center;
-  margin-top: 15px;
-}
-#texto-do-bloco {
-  text-align: justify;
-  margin-right: 10px;
-  margin-left: 10px;
+#bloco div p{
   font-family: Poppins;
+  font-weight: normal;
 }

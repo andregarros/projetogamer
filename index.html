@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="media-query.css" />
+    <script src="menu-mobile.js" defer></script>
   </head>
   <body>
     <header id="cabecalho">
       <h1>Telesct</h1>
-      <nav>
+      <nav id="menu-pc">
         <ul>
           <li>
             <a href="index.html">INICIO</a>
@@ -24,6 +25,24 @@
           <p id="cadastro">Cadastro/Login</p>
         </div>
       </nav>
+      
+        <div class="btn-abrir-menu" id="btn-menu">
+          <img src="imagens/menu-aberto.png" alt="">
+        </div>
+
+        <div class="menu-mobile" id="menu-mobile">
+          <nav>
+            <ul>
+              <li>
+                <a href="index.html" class="cor">INICIO</a>
+              </li>
+              <li><a href="#">NOVIDADE</a></li>
+              <li><a href="#" id="cor1">DOWLOAD</a></li>
+              <li><a href="#">SOBRE</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="overlay-menu-mobile" id="overlay-menu-mobile"></div>
     </header>
     <main>
       <section class="carrossel-imagens" id="jogos">
@@ -51,28 +70,24 @@
 
       <section id="Duvidas">
         <h2>Duvidas</h2>
-      </section>
+      </section> 
+      <div id="bloco" class="carrossel-imagens">
 
-      <section id="bloco">
-        <div id="bloco-de-duvidas">
-          <h2 id="subtitulo-do-bloco">Sobre o site</h2>
-          <p id="texto-do-bloco">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam
-            cumque placeat, quae voluptates laborum odit quisquam nam adipisci
-            consectetur vitae modi, et, eum est quam repellendus illum animi
-            minima! Dolorem!
-          </p>
+        <div>
+          <h2>O site é seguro ?</h2>
+          <p>sim, todos os dados dos usuários que trafegam pela página seão criptografados e protegidos em caso de invasões cibernéricas. O site possui selo de verificação SSL</p>
         </div>
-        <div id="bloco-de-duvidas">
-          <h2 id="subtitulo-do-bloco">Como usar</h2>
-          <p id="texto-do-bloco">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam
-            earum iure, facilis eius accusantium, reprehenderit sequi beatae
-            dolor vitae laborum voluptates? Ex dolor nisi, eius voluptas unde
-            illo corrupti. Repellendus.
-          </p>
+
+        <div>
+          <h2>O site é seguro ?</h2>
+          <p>sim, todos os dados dos usuários que trafegam pela página seão criptografados e protegidos em caso de invasões cibernéricas. O site possui selo de verificação SSL</p>
         </div>
-      </section>
+
+        <div>
+          <h2>O site é seguro ?</h2>
+          <p>sim, todos os dados dos usuários que trafegam pela página seão criptografados e protegidos em caso de invasões cibernéricas. O site possui selo de verificação SSL</p>
+        </div>
+      </div>
     </main>
   </body>
 </html>

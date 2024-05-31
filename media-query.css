@@ -9,7 +9,7 @@
 
 
 /*media query mobile*/
-@media(max-width:500px){
+@media(max-width:600px){
     header{
         font-size: 0.6em;
         

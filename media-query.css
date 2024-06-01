@@ -1,4 +1,4 @@
-@media(min-width:599px) and (max-width:1900px){
+@media(min-width:599px) and (max-width: 3000px){
     .menu-mobile{
         display: none;
     }

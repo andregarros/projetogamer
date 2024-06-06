@@ -19,7 +19,6 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: green;
     background-image: url(imagens/fundo-login-mobile.jpg);
     background-size: cover;
 }
@@ -56,6 +55,11 @@ body{
     outline: none;
     background-color: transparent;
     padding: 0px 20px;
+}
+
+#box-login input::placeholder{
+    color: rgba(255, 255, 255, 0.651);
+    font-size: 15px;
 }
 #box-login i{
     position: absolute;

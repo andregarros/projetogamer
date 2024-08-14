@@ -1,3 +1,12 @@
+<?php
+
+session_start();
+if(isset($_SESSION['mensagem'])){
+    echo $_SESSION['mensagem'];
+  
+}
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -6,7 +15,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="media-query.css" />
-    <script src="menu-mobile.js" defer></script>
   </head>
   <body>
     <header id="cabecalho">
@@ -61,9 +69,9 @@
           <h2 class="titulo-jogo-vermelho">Fortnite</h2>
         </div>
         <div class="quadrado-imagem">
-          <img src="imagens/blood.jpg" alt="" />
-          <h2 class="titulo-jogo">Blood Strike</h2>
-        </div>
+            <img src="imagens/blood.jpg" alt="" />
+            <h2 class="titulo-jogo">Blood Strike</h2>
+          </div>
         <div class="quadrado-imagem">
           <img src="imagens/farlight.jpg" alt="" />
           <h2 class="titulo-jogo-vermelho">Farlight</h2>
